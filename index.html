@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="img/man.svg" />
+    <title>Teacher A</title>
+
+    <!-- CSS Boostrap 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Mes styles -->
+    <link id="theme" rel="stylesheet" type="text/css" href="src/light-theme.css">
+    <!-- <link rel="stylesheet" href="style_atelier.css"> -->
+
+</head>
+
+<body>
+    
+    <!-- ========================================= -->
+    <!-- Navbar -->
+    <!-- ========================================= -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <!-- ml-auto : margin left automatique mettra le bouton à droite -->
+
+        <!-- aria-controls : pour l'accessibilité aux personnes malvoyantes // aria-expanded="false" : on démarre avec le menu qui n'est pas étendu donc on démarre à false // navbar-toggler-icon le .svg du burger -->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <!-- ajax   -->
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<!-- MODAL  -->
+   
+<div id="box" >
+    <div id="pop-up" class="wrapper">
+        <button class='close-btn x'>X</button>
+<h1>Bienvenue dans l'entre du savoir</h1>
+<p>Une floppéé de langues s'offre à vous!
+    Rédécouvrez l'apprentissage comme vous ne l'avez jamaias vu!
+    Avec une méthode adaptative au niveau de chacun.
+</p>
+<div>
+<button class="close-btn blob-btn">Apprendre avec Teacher A</button>
+</div>
+<p>La science est à porter de main</p>
+<h3>Teacher A ? C'est qui ? c'est quoi ? ça se mange ?  jetter à coup d'oeil à notre Pintrest pour vous faire une idée : </h3>  
+
+<a data-pin-do="embedUser" data-pin-board-width="900" data-pin-scale-height="120" data-pin-scale-width="115" href="https://www.pinterest.co.uk/TeacherDroid/pins/">Visiter le Pintrest</a>
+</div>
+</div>
+<!-- le texte derrière  -->
+</div>
+<!-- Fin MODAL  -->
+
+
+        <div class="text-center dark">
+            <div class="d-flex">
+                <button id="theme-toggle">🌙/☀️                 
+            </div>
+        </div>
+        <!-- collapse navbar-collapse : pour le masquer ou pas // id="navbarToggler" qui est ciblé plus haut ds data-target-->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <!-- d-flex : tout est flex dans la ul // justify-content-center align-items-center centré horizontalement et verticalement -->
+            <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link text-dark">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cours" class="nav-link text-dark">Les cours</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#app" class="nav-link text-dark">L'application</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link text-dark">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link text-dark">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+<div>
+
+    <!-- ========================================= -->
+    <!-- Accueil -->
+    <!-- ========================================= -->
+
+    <div class="bgAccueil text-white text-center d-flex flex-column align-items-center w-100 h-75 p-3 mx-auto"
+        id="accueil">
+        <!-- mt-auto // pour centrer verticalement 2 éléments, en flex en mode colonne les 2 éléments vont se partager l'espace en hauteur -->
+        <div class="mt-auto">
+            <img src="img/teacher.svg" alt="avatar" class="imgProfil">
+            <h1>Hi</h1>
+            <p class="lead">Envie d'apprendre avec Teacher A ?</p>
+            <p class="lead">
+                <a href="#app" class="btn btn-sm btn-secondary">En savoir plus</a>
+            </p>
+        </div>
+
+        <div class="mt-auto">
+            <p class="lead">Never stop seeking knowledge</p>
+        </div>
+
+    </div>
+    <!-- fin div accueil  -->
+
+    
+    <!-- ========================================= -->
+    <!-- Portfolio -->
+    <!-- ========================================= -->
+    <!-- py-5 padding en haut et en bas -->
+    <div class="py-5" id="cours">
+        <h2 class="text-center mb-5 text-uppercase darkMode">Les cours</h2>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- col card 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/spoken.png" alt="spoken">
+                        <div class="card-body">
+
+                            <h4>Expression Orale</h4>
+                            <p class="card-text">Vous apprenez une langue mais toujours incapable de prononcer les
+                                lettres correctement ?
+                                Ou bien vous avez besoin d'augmenter votre vocabulaire afin de pouvoir écouter les
+                                audios et les vidéos de votre choix.
+                                Travailler son expression orale c'est mettre à niveau sa compréhension, que ce soit pour
+                                parler ou pour écouter vous êtes bien tomber.</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/written.png" alt="written">
+                        <div class="card-body">
+
+                            <h4>Expression Ecrite</h4>
+                            <p class="card-text">Une disserte à faire et encore trop de fautes d'orthographe ?
+                                Un livre vous intéresse mais impossible de comprendre un mot ?
+                                Dur dur de lire les vidéos sous-tirées sur YouTube?
+                                Le success passe par la compréhension écrite!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/discussion.png" alt="discussion">
+                        <div class="card-body">
+
+                            <h4>Le basic de la conversation</h4>
+                            <p class="card-text">Trouver son chemin, réserver l'hôtel, commander un sandwich peut être
+                                un vrai parcours du combattant en terre inconnu Familiarisez vous au vocabulaires
+                                passepartout et envlever vous une épine du pied.</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/translation.png" alt="translation">
+                        <div class="card-body">
+
+                            <h4>Traduction</h4>
+                            <p class="card-text">Besoin d'une traduction? 
+                                Problèmme avec un achat ? 
+                                Pas de version française pour votre siteweb préferé ?
+                                Un C.V. à traduire ?
+                                Vous avez reçus un e-mail de votre patron qui vous laisse perplexe ?
+                                Les syntaxes n'auront plus de secrets pour vous!</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/project.png" alt="project">
+                        <div class="card-body">
+
+                            <h4>project</h4>
+                            <p class="card-text">Des ambitions pour vous lancez dans un project multi-langues, mais le
+                                plan n'est pas claire dans votre esprit ?
+                                Parfois le mieux c'est d'apprendre des erreurs des autres pour s'éviter des
+                                catastrophes.
+                            </p>
+                            </p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/meeting.png" alt="meeting">
+                        <div class="card-body">
+
+                            <h4>Conference</h4>
+                            <p class="card-text">Une réunion à assurer ?
+                                Besoin d'un conférencier pour votre grand plongeon dans l'international marketing ?
+                                Teacher A est là pour vous! </p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 7 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/culture.png" alt="culture">
+                        <div class="card-body">
+
+                            <h4>Point culture</h4>
+                            <p class="card-text">Vacancier ? Globetroteur où extpatrier ?
+                                Des stéréotypes pleins la tête ? Vous ne savez pas ou vous mettez les pieds ?
+                                Jetez-un à oeil à nos articles spéciale cultures, afin de vous préparez au maximum et
+                                d'éviter le fameux "culture shock".</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 8 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/calligraphy.png" alt="calligraphy">
+                        <div class="card-body">
+
+                            <h4>Calligraphie</h4>
+                            <p class="card-text">Déjà bien expérimenté dans la langue que vous souhaitez apprendre ? Où
+                                vous voulez simplement améliorez votre écriture?
+                                La calligraphie est l'activité rêver, l'art thérapie vous aidera à joindre l'utile à
+                                l'agréable.</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours 
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+                <!-- col card 9 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="img/advices.png" alt="advices">
+                        <div class="card-body">
+
+                            <h4>Conseils</h4>
+                            <p class="card-text">Vous ne savez pas par ou commencer ?
+                                Remplissez le questionnaire d'aptitude pour recevoir des conseils adaptés à vos besoin
+                                et mode de vie.
+                                Consultez la FAQ pour tirer profit des expériences des autres.</p>
+
+                            <div class="btn-group">
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary">
+                                    Voir le déroulé de cours
+                                </a>
+                                <a href="#" target="_blank" class="text-dark btn btn-sm btn-outline-secondary ml-2">
+                                    Je commence!
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- fin card-body  -->
+                    </div>
+                    <!-- fin card -->
+                </div>
+                <!-- fin col card -->
+
+            </div>
+            <!-- fin row  -->
+        </div>
+        <!-- fin container  -->
+    </div>
+    <!-- fin div portfolio -->
+
+
+    <!-- ========================================= -->
+    <!-- L'application -->
+    <!-- ========================================= -->
+
+    <section class="bg-dark text-white" id="app">
+        <div class="container py-5">
+
+            <h2 class="text-center text-uppercase text-white">Mon application</h2>
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-lg-4">
+                    <p class="lead">L'application Teacher A est là pour vous aidez à apprendre la langue qui vous fais
+                        rêver pour les débutants
+                        et à garder votre niveau de langue pour les initiés.
+
+                        Son look tendance et ses fonctionalités dynamiques vous donneront une nouvelle vision des
+                        études.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/app.svg" alt="" class="imgProfil">
+                </div>
+
+            </div>
+            <!-- fin row  -->
+
+            <div class="text-center">
+                <div>
+                    <button
+                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none margin-app">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 imgApp"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+                            </path>
+                        </svg>
+                        <span class="ml-4 flex items-start flex-col leading-none">
+                            <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+                            <span class="title-font font-medium">Google Play</span>
+                        </span>
+                    </button>
+                    <button
+                        class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none margin-app">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 imgApp"
+                            viewBox="0 0 305 305">
+                            <path
+                                d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z">
+                            </path>
+                            <path
+                                d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z">
+                            </path>
+                        </svg>
+                        <span class="ml-4 flex items-start flex-col leading-none">
+                            <span class="text-xs text-gray-600 mb-1">Download on the</span>
+                            <span class="title-font font-medium">App Store</span>
+                        </span>
+                    </button>
+                </div>
+
+            </div>
+            <!-- fin container  -->
+    </section>
+    <!-- fin section à propos -->
+
+    <!-- ========================================= -->
+    <!-- Services -->
+    <!-- ========================================= -->
+
+    <h2 id="services" class="text-center text-uppercase my-5 darkMode">Mes services</h2>
+
+    <div class="container">
+        <!-- justify content center pour centre sur l'axe des y -->
+        <div class="row d-flex justify-content-center">
+
+            <!-- on centre sur l'axe des x les éléments contenus dans les colonnes -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/mesuring.png" alt="vue" class="imgServices">
+                <h2 class="text-center darkMode">Cours sur mesure</h2>
+                <p class="darkMode">   Vous avez un programme bien à vous ?<br> Vous désirez vous préparez pour un examen ?<br>Un voyage dès demain ?<br>Les cours sur mesure sont faits pour vous!
+                </p>
+                <a href="#" class="btn btn-secondary mb-4">Voir une démo</a>
+            </div>
+            <!-- fin col -->
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/manual.png" alt="vue" class="imgServices">
+                <h2 class="text-center darkMode">Manuels de cours</h2>
+                <p class="darkMode">Vous vous intérogez sur l'éducation active ? Pour vous tous les manuels scolaires se ressemblent tous? Etudier sous un nouveau jour avec la méthode Teacher A.
+                </p>
+                <a href="#" class="btn btn-secondary mb-4">Voir une démo</a>
+            </div>
+            <!-- fin col -->
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content align-items-center">
+                <img src="img/video.png" alt="vue" class="imgServices">
+                <h2 class="text-center darkMode">Support Vidéo</h2>
+                <p class="darkMode">Vos cours préferez sont ceux que vous regardez avec votre capuccino à la main ? Les supports vidéos vous permettes d'apprendre tout en vous relaxant.
+                </p>
+                <a href="#" class="btn btn-secondary mb-4">Voir une démo</a>
+            </div>
+            <!-- fin col -->
+        </div>
+        <!-- fin row  -->
+
+    </div>
+   </div>
+    <!-- fin container  -->
+
+    <!-- ========================================= -->
+    <!-- Contact -->
+    <!-- ========================================= -->
+
+    <section class="bgContact text-white" id="contact">
+
+        <div class="container">
+            <h2 class="text-center titreContact">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-10 mx-auto">
+
+
+                    <!-- le forme action à vonlontairement été laissé vide, le formulaire de contact devait générer l'envoyer de couriel vers la boite mail du commanditaire, suite à un disfonctionnement rencontrer avec mailjet cette idée à été mise en suspens -->
+                    <form action="" method="POST" id="contactForm">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="prenom">Prénom *</label>
+                                    <input type="text" name="prenom" id="prenom" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="nom">Nom *</label>
+                                    <input type="text" name="nom" id="nom" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin row nom prénom -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" name="email" id="email" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin row email -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="message">Votre message *</label>
+                                    <textarea name="message" id="message" cols="30" rows="4"
+                                        class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="submit" name="envoyez" value="Envoyez" class="btn btn-md btn-success">
+                            </div>
+                        </div>
+                        <!-- fin row message et bouton -->
+                    </form>
+
+                </div>
+                <!-- fin col -->
+            </div>
+            <!-- fin row  -->
+        </div>
+        <!-- fin container  -->
+    </section>
+
+    <!-- ========================================= -->
+    <!-- Pied de page -->
+    <!-- ========================================= -->
+
+    <footer class="bgContact text-white">
+        <p class="text-center">
+            Tout droits réservés © - 2012-2021 , Teacher A
+        </p>
+    </footer>
+<div id=scrollUp>
+    <a href="#top"><img src="img/arrow1.png"/></a>
+</div>
+    <!-- JS etc. de Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+    <!-- Pinit JS  -->
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+    <!-- Mon JS -->
+    <script src="asset/app.js"></script>
+
+</body>
+
+</html>
